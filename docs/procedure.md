@@ -1,6 +1,5 @@
-# Notes
+# Procedure
 
-## Proposed procedure
 1. Pre-process building footprint data
 2. Extrude building footprints 
 4. Process DEM data
