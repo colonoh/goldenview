@@ -1,8 +1,9 @@
 # Notes
 
 ## Proposed procedure
-1. Extrude building footprint data
-2. Process DEM data
-3. Combine?
-4. Ray trace from POIs
-5. Create visualization of building faces 
+1. Pre-process building footprint data
+2. Extrude building footprints 
+4. Process DEM data
+5. Combine?
+6. Ray trace from POIs
+7. Create visualization of building faces 
