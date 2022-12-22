@@ -12,7 +12,7 @@
 5. Display cube faces
 
 ## Python packages/etc
-- geometry: shapely, fiona, geopandas
+- geometry: shapely, fiona, geopandas, cuspatial?
 - pydantic, pint
 - test: pytest, factoryboy
 - infra: dask, poetry, xarray
