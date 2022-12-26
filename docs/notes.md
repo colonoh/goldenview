@@ -23,4 +23,4 @@
   - https://www.pbr-book.org/3ed-2018/Primitives_and_Intersection_Acceleration/Bounding_Volume_Hierarchies
   - https://fileadmin.cs.lth.se/cs/Education/EDAN30/lectures/S2-bvh.pdf
   - https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-acceleration-structure/introduction
-  - 
+  - https://my.eng.utah.edu/~cs6965/slides/05-josef.pdf
