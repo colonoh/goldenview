@@ -16,3 +16,7 @@
 - pydantic, pint
 - test: pytest, factoryboy
 - infra: dask, poetry, xarray
+
+## Reference
+- Bounding Volume Hierarchies
+  - https://www.pbr-book.org/3ed-2018/Primitives_and_Intersection_Acceleration/Bounding_Volume_Hierarchies
