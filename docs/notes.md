@@ -3,7 +3,6 @@
 - find way to display shapes (preferably interactively)
 - CI/CD
 
-
 ## Prototype
 1. Start with a square
 2. Extrude square into cube
@@ -12,10 +11,10 @@
 5. Display cube faces
 
 ## Python packages/etc
-- geometry: shapely, fiona, geopandas, cuspatial?
+- fiona, geopandas, cuspatial?, xarray
 - pydantic, pint
 - test: pytest, factoryboy
-- infra: dask, poetry, xarray
+- infra: dask, poetry, 
 
 ## Reference
 ### Acceleration structures (fewer ray-object intersection tests)
