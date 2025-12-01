@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Golden Gate Bridge - North Tower",
+    "lat": 37.825587,
+    "lon": -122.479203,
+    "elevation_m": 227,
+    "description": "North tower of Golden Gate Bridge"
+  },
+  {
+    "name": "Golden Gate Bridge - South Tower",
+    "lat": 37.814045,
+    "lon": -122.477816,
+    "elevation_m": 227,
+    "description": "South tower of Golden Gate Bridge (San Francisco side)"
+  },
+  {
+    "name": "Alcatraz Island Peak",
+    "lat": 37.826206,
+    "lon": -122.422144,
+    "elevation_m": 41,
+    "description": "Highest point on Alcatraz Island"
+  },
+  {
+    "name": "Bay Bridge - West Tower",
+    "lat": 37.798184,
+    "lon": -122.377791,
+    "elevation_m": 162,
+    "description": "Western (San Francisco) tower of Bay Bridge"
+  }
+]
