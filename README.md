@@ -1,5 +1,7 @@
 # README
 
+Claude-code generated prototype for checking with buildings in San Francisco can see specific points of interest (listed in viewpoints_real.json).
+
 To run:
 ``` shell
 pythom -m venv venv
