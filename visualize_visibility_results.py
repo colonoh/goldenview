@@ -68,9 +68,9 @@ def get_building_color(building_idx):
 
     # Color based on number of viewpoints
     if num_visible == 4:
-        return 'darkgreen'  # Can see all 4
+        return 'lime'  # Can see all 4
     elif num_visible == 3:
-        return 'green'
+        return 'darkgreen'
     elif num_visible == 2:
         return 'yellow'
     elif num_visible == 1:
@@ -105,14 +105,14 @@ for building_idx in range(len(gdf)):
 
 ax_main.set_xlabel('Longitude', fontsize=10)
 ax_main.set_ylabel('Latitude', fontsize=10)
-ax_main.set_title('Overview: Buildings by Visibility Count\n(Darker = More Viewpoints)', fontsize=12, fontweight='bold')
+ax_main.set_title('Overview: Buildings by Visibility Count\n(Bright Green = All 4 Viewpoints)', fontsize=12, fontweight='bold')
 ax_main.grid(True, alpha=0.3, linestyle='--')
 ax_main.set_aspect('equal')
 
 # Add legend
 legend_elements = [
-    mpatches.Patch(facecolor='darkgreen', edgecolor='black', label='Visible from all 4 viewpoints'),
-    mpatches.Patch(facecolor='green', edgecolor='black', label='Visible from 3 viewpoints'),
+    mpatches.Patch(facecolor='lime', edgecolor='black', label='Visible from all 4 viewpoints'),
+    mpatches.Patch(facecolor='darkgreen', edgecolor='black', label='Visible from 3 viewpoints'),
     mpatches.Patch(facecolor='yellow', edgecolor='black', label='Visible from 2 viewpoints'),
     mpatches.Patch(facecolor='orange', edgecolor='black', label='Visible from 1 viewpoint'),
     mpatches.Patch(facecolor='lightgrey', edgecolor='black', label='Not visible from any'),
@@ -168,7 +168,7 @@ visibility_counts[0] = num_no_visibility
 
 counts = [visibility_counts.get(i, 0) for i in range(5)]
 labels = ['0 viewpoints\n(greyed out)', '1 viewpoint', '2 viewpoints', '3 viewpoints', '4 viewpoints']
-colors_chart = ['lightgrey', 'orange', 'yellow', 'green', 'darkgreen']
+colors_chart = ['lightgrey', 'orange', 'yellow', 'darkgreen', 'lime']
 
 ax1.bar(range(5), counts, color=colors_chart, edgecolor='black', linewidth=2)
 ax1.set_ylabel('Number of Buildings', fontsize=12)
